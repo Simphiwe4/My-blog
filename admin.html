@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <link rel="stylesheet" href="./css/bootstrap.min.css" >
+  </head>
+  <body>
+    <div class="container mt-3">
+      <h2>4IR</h2>
+      <div class="mt-4 p-5 bg-primary text-white rounded">
+        <h1>Jumbotron </h1> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+      </div>
+    </div>
+    <h1 style="text-align: center;">Add An Article</h1>
+    
+    <div class="container">
+      <form action="/action_page_process_submitted_data.php">
+        <h2>Article Title</h2>
+        <input class="form-control" type="text" id="artTitle"name="" value="">
+        <br>
+        
+        <h2>Choose an image</h2>
+        <input type="file" id="file"name="" value="">
+        <br>
+        <br>
+        <h2>Article Text</h2>
+        <textarea class="form-control" row="5" id="artTxt"></textarea>
+        <br>
+        <h2>Cartegory</h2>
+        <input class="form-control" type="text" id="cart" name="" value="">
+        <br>
+
+        <button type="submit" class="btn btn-secondary">Submit</button>
+      </form>
+
+    </div>
+
+
+
+    <script src="./js/query.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>    
+    <script src="./js/bootstrap.min.js"></script>
+
+  </body>
+</html>
